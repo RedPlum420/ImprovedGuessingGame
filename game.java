@@ -46,7 +46,7 @@ public class Main {
                 String line = scanner.next();
 
                 if(line.equals("Quit") || line.equals("quit") || line.equals("exit") || line.equals("Exit") || line.equals("stop") || line.equals("Stop")){
-                    System.out.println("Goodbye!");
+                    System.out.println("Goodbye!" + " The correct number was: " + randomNum);
                     System.exit(0);
                 }else System.out.println("Wrong input! " + line + " was invalid.");
             }
